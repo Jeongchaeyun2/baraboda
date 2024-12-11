@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* 반응형 폰트 기준 사이즈 */
+html {font-size: 62.5%;} /* 10px */
+
+/* 여백 초기화 */
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+/* 테이블 선 중첩 제거 */
+table{border-collapse: collapse; width: 100%;}
+
+/* 블릿 기호, 숫자 제거 */
+ol,ul {list-style: none;}
+
+/* 밑줄 제거, 글자색 변경 */
+a {text-decoration: none; color: inherit;}
+
+/* 글자 기울임 제거 */
+address {font-style: normal;}
+
+/* 브라우저에 노출 안 하게 */
+legend, caption{display: none;}
+
+/* 테두리 제거 */
+fieldset, input, select, textarea, button {border: 0; outline: none;}
